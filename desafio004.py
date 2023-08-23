@@ -1,0 +1,8 @@
+valor = input('Me diga algo: ')
+print('O tipo primitivo desse valor é ',type(valor))
+print('Só tem espaços?', valor.isspace())
+print('É um numero?', valor.isnumeric())
+print('É alfabetico?', valor.isalpha())
+print('É alfanumerico?', valor.isalnum())
+print('Está em maiúsculas?', valor.isupper())
+print('Está em minúsculas?', valor.islower())
